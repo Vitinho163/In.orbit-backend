@@ -1,0 +1,162 @@
+{
+  "_type": "export",
+  "__export_format": 4,
+  "__export_date": "2024-09-13T01:58:35.141Z",
+  "__export_source": "insomnia.desktop.app:v2023.5.5",
+  "resources": [
+    {
+      "_id": "req_f979eda6942544fabefba4a05d27a40b",
+      "parentId": "fld_09ee2669d45046169bb6187d82fdf764",
+      "modified": 1726191541928,
+      "created": 1725930505841,
+      "url": "http://localhost:3333/goals",
+      "name": "Create goal",
+      "description": "",
+      "method": "POST",
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n\t\"title\": \"Não usar o celular de noite\",\n\t\"desiredWeeklyFrequency\": 3\n}"
+      },
+      "parameters": [],
+      "headers": [
+        { "name": "Content-Type", "value": "application/json" },
+        { "name": "User-Agent", "value": "Insomnia/2023.5.5" }
+      ],
+      "authentication": {},
+      "metaSortKey": -1725930505841,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "fld_09ee2669d45046169bb6187d82fdf764",
+      "parentId": "wrk_3198d663d3bd439f9cecea38586a534e",
+      "modified": 1725930504118,
+      "created": 1725930504118,
+      "name": "Goals",
+      "description": "",
+      "environment": {},
+      "environmentPropertyOrder": null,
+      "metaSortKey": -1725930504118,
+      "_type": "request_group"
+    },
+    {
+      "_id": "wrk_3198d663d3bd439f9cecea38586a534e",
+      "parentId": null,
+      "modified": 1725930492618,
+      "created": 1725930492618,
+      "name": "NLW_Pocket",
+      "description": "",
+      "scope": "collection",
+      "_type": "workspace"
+    },
+    {
+      "_id": "req_878b5171dfcb4a0dafff5a113495d778",
+      "parentId": "fld_09ee2669d45046169bb6187d82fdf764",
+      "modified": 1726190793292,
+      "created": 1725932954716,
+      "url": "http://localhost:3333/pending-goals",
+      "name": "Get week pending goals",
+      "description": "",
+      "method": "GET",
+      "body": { "mimeType": "application/json", "text": "" },
+      "parameters": [],
+      "headers": [
+        { "name": "Content-Type", "value": "application/json" },
+        { "name": "User-Agent", "value": "Insomnia/2023.5.5" }
+      ],
+      "authentication": {},
+      "metaSortKey": -1725932954716,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "req_af101e5ee3ff48e8bb6f5174d79e7d05",
+      "parentId": "fld_09ee2669d45046169bb6187d82fdf764",
+      "modified": 1726191641592,
+      "created": 1725937394625,
+      "url": "http://localhost:3333/completions",
+      "name": "Create goal completion",
+      "description": "",
+      "method": "POST",
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n\t\"goalId\": \"z1wwi8lwcethcg91c4advwsp\"\n}"
+      },
+      "parameters": [],
+      "headers": [
+        { "name": "Content-Type", "value": "application/json" },
+        { "name": "User-Agent", "value": "Insomnia/2023.5.5" }
+      ],
+      "authentication": {},
+      "metaSortKey": -1724585842754,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "req_9e7f300ec72246c78d8b47db4f74a7b9",
+      "parentId": "fld_09ee2669d45046169bb6187d82fdf764",
+      "modified": 1726093196212,
+      "created": 1725997338443,
+      "url": "https://in-orbit-backend.onrender.com/summary",
+      "name": "Get week summary",
+      "description": "",
+      "method": "GET",
+      "body": { "mimeType": "application/json", "text": "" },
+      "parameters": [],
+      "headers": [
+        { "name": "Content-Type", "value": "application/json" },
+        { "name": "User-Agent", "value": "Insomnia/2023.5.5" }
+      ],
+      "authentication": {},
+      "metaSortKey": -1725931730278.5,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "env_eccd87f36f72bd70d82d1c59144b0a467875075e",
+      "parentId": "wrk_3198d663d3bd439f9cecea38586a534e",
+      "modified": 1725930492621,
+      "created": 1725930492621,
+      "name": "Base Environment",
+      "data": {},
+      "dataPropertyOrder": null,
+      "color": null,
+      "isPrivate": false,
+      "metaSortKey": 1725930492621,
+      "_type": "environment"
+    },
+    {
+      "_id": "jar_eccd87f36f72bd70d82d1c59144b0a467875075e",
+      "parentId": "wrk_3198d663d3bd439f9cecea38586a534e",
+      "modified": 1725930492624,
+      "created": 1725930492624,
+      "name": "Default Jar",
+      "cookies": [],
+      "_type": "cookie_jar"
+    }
+  ]
+}
