@@ -29,6 +29,8 @@ In.orbit - Back-End is a **Node.js** application developed as part of Rocketseat
 - **[Zod](https://zod.dev/)**: TypeScript-first schema declaration and validation library.
 - **[Drizzle ORM](https://github.com/drizzle-team/drizzle-orm)**: Lightweight TypeScript ORM.
 - **[Biome](https://biomejs.dev/)**: Tool for formatting and linting code.
+- **[@fastify/static](https://github.com/fastify/fastify-static)**: Fastify plugin for serving static files.
+- **[@scalar/fastify-api-reference](https://github.com/scalar/scalar/tree/main/packages/fastify-api-reference#readme)**: Fastify plugin for API documentation.
 
 ## 📁 Structure of the project <a name="project_structure_en"></a>
 
@@ -36,6 +38,8 @@ In.orbit - Back-End is a **Node.js** application developed as part of Rocketseat
 ├── src: directory containing application source files
 
 │ ├── db: directory containing database connection, schema, and seed files.
+
+│ ├── documentation: directory containing API documentation files (Insomnia and Swagger).
 
 │ ├── functions: directory containing exported function files (create-goal-completion, create-goal, get-week-pending-goals, get-week-summary).
 
@@ -114,6 +118,8 @@ In.orbit - Back-End é uma aplicação **Node.js** desenvolvida durante a NLW Po
 - **[Zod](https://zod.dev/)**: Biblioteca de validação de esquemas baseada em TypeScript.
 - **[Drizzle ORM](https://github.com/drizzle-team/drizzle-orm)**: ORM leve para TypeScript.
 - **[Biome](https://biomejs.dev/)**: Ferramenta para formatação e linting de código.
+- **[@fastify/static](https://github.com/fastify/fastify-static)**: Plugin Fastify para servir arquivos estáticos.
+-**[@scalar/fastify-api-reference](https://github.com/scalar/scalar/tree/main/packages/fastify-api-reference#readme)**: Plugin Fastify para documentação de API.
 
 ## 📁 Estrutura do Projeto <a name="estrutura-do-projeto-pt"></a>
 
@@ -121,6 +127,8 @@ In.orbit - Back-End é uma aplicação **Node.js** desenvolvida durante a NLW Po
 ├── src: diretório contendo os arquivos da aplicação
 
 │ ├── db: diretório contendo a conexão com o banco de dados, schema e seed.
+
+│ ├── documentation: diretório contendo arquivos de documentação da API (Insomnia e Swagger).
 
 │ ├── functions: diretório com os arquivos das funções exportadas (create-goal-completion, create-goal, get-week-pending-goals, get-week-summary).
 
